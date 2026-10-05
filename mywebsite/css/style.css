@@ -1,0 +1,73 @@
+/* id, tag or classname */
+h1 {
+    color: red;
+}
+
+#p-text {
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+.wrapper {
+    margin: 20px;
+    border: solid 1px green;
+}
+
+header{
+    color: green;
+}
+
+li > a {
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+section > p{
+
+    background-color: pink;
+}
+
+a:link{
+    text-decoration: none;
+    color: red;
+    background-color: rgb(42, 52, 158);
+}
+a:hover{
+    background-color: gray;
+    color: blue;
+}
+a:visited{
+    
+    color: white;
+}
+input:checked{
+    outline: solid red 3px;
+}
+h1{
+    color: blue;
+    font-weight: bolder;
+    font-weight: 200;
+    font-style: italic;
+}
+h2{
+    color: green;
+}
+#ttl{
+    text-decoration: underline;
+}
+li{
+    color: red;
+    font-style: italic;
+}
+.photo{
+    padding:20px ;
+    width: 150px;
+    border: solid green 3px;
+}
+p{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+}
