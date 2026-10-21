@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display css proprty</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .div1 {
+            border: 2px red solid;
+            display: inline;
+        }
+
+        .div2 {
+            border: 2px rgb(0, 255, 47) solid;
+            display: inline;
+        }
+
+        a {
+            display: inline-block;
+            width: 150px;
+            padding: 2px;
+            border: solid 2px green;
+        }
+
+        span {
+            display: inline-block;
+            width: 200px;
+            border: solid 2px green;
+        }
+
+        .common{
+            border: solid 1px red;
+            display: inline;
+            width: 50px;
+        }
+        .parent-div{
+            width: 200px;
+            display: flex;
+            align-items:flex-start;
+            justify-content:right;
+            flex-wrap:nowrap ;
+            border: solid green 2px;
+
+        }
+        h1{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="div1">Div1</div>
+        <div class="div2">Div2</div>
+        <a href="#">Home</a>
+        <span>some text in span element</span>
+    </section>
+ <br>
+ <h1>Display flex example</h1>
+    <section>
+        <div class="parent-div">
+            <div class="div3 common">Div3</div>
+            <div class="div4 common">Div4</div>
+            <div class="div5 common">Div5</div>
+            <div class="div6 common">Div6</div>
+        </div>
+    </section>
+     </body>
+
+</html>
